@@ -7,6 +7,17 @@ body{
     background-color: #353535;
     font-family: sans-serif;
 }
+#sidebar{
+    
+    position: absolute;
+    width: 15em;
+    height 30em;
+    right: 0em;
+    color: #ffffff;
+    background-color: #121212;
+    
+    
+}
 header{
     background-color: #121212; 
     font-family: sans-serif;
@@ -18,4 +29,16 @@ header{
 }
 h1{
     color: #ff7700;
+}
+button{
+    padding: .1em;
+    border-style: dashed;
+    border-color: #a26400;
+    background-color: #ff8900;
+    margin: .1em;
+    float: left;
+    width: 5em;
+}
+td{
+    width: 7em;
 }

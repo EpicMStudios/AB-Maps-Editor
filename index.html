@@ -8,6 +8,34 @@
     <h1>AB-Maps Mapping Tool</h1>
     </header>
     <body>
+        
+        <div id="sidebar">
+            
+            <table>
+                <tr>
+                    <td><h3>Mode:</h3></td>
+                </tr>
+                <tr>
+                    <td><button type="button" name="room"><h4>Room</h4></button></td>
+                    <td><button type="button" name="hall"><h4>Hall</h4></button></td>
+                    <td><button type="button" name="stairway"><h4>Stairway</h4></button></td>
+                    
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><h3>Floor Level:</h3></td>
+                </tr>
+                <tr>
+                    <select>
+                        <option value="1">First</option>
+                        <option value="2">Second</option>
+                    </select>
+                </tr>
+            </table>
+            
+        </div>
+        
         <canvas id="canvas" width="640" height="480" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
         <script src="main.js">
